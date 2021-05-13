@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulario exercicio</title>
+</head>
+<body>
+	<h1>Loja 1</h1>
+	<h3><strong>Por favor preencha os campos para completar o cadastro</strong></h3>
+		<form>
+				<p>Email:</p>
+				<input type="text" name="cadastro">
+				<p>Escolha uma senha:</p>
+				<input type="password" name="cadastrosenha">
+				<p>Repita a senha:</p>
+				<input type="password" name="cadastrosenha">
+				<p>Região:</p>
+				<select name="Região">
+		<!--Sempre colocar value e name para localizar a informação depois-->
+				<option value="Sudeste">Sudeste</option>
+				<option value="Nordeste">Nordeste</option>
+				<option value="Norte">Norte</option>
+				<option value="Sul">Sul</option>
+				<option value="Centro-Oeste">Centro-Oeste</option>
+				</select>
+				<p>Cpf:</p>
+				<input type="text" name="cadastrocpf"> <br>
+				<p>Sexo:</p>
+	<!--Para escolher apenas uma opção no radio, o name precisa ser o mesmo -->
+				<input type="radio" name="sexo"	value="M"> Masculino<br>
+				<input type="radio" name="sexo"	value="F"> Feminino<br>
+				<input type="radio" name="sexo"	value="O"> Outro<br>
+				<input type="radio" name="sexo"	value="I"> Prefiro não dizer<br>
+	<!--value para definir o texto do botão-->
+				<h3>Interesses</h3>
+				<input type="checkbox" name=""> Futebol<br>
+				<input type="checkbox" name=""> Volei<br>
+				<input type="checkbox" name=""> Basquete<br>
+				<input type="checkbox" name=""> Natação<br>
+				<input type="checkbox" name=""> Tenis<br>
+			<p>Fale sobre você:</p>
+			<textarea></textarea><br>
+			<input type="submit" name="cadastro" value="Enviar cadastro">
+		</form>
+	<hr>
+	<a href="Tabela complemento.html">Ja possuo cadastro</a>
+</body>
+</html>
